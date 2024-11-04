@@ -1,0 +1,173 @@
+Folder PATH listing
+Volume serial number is 1A8C-F006
+C:.
+|   .gitignore
+|   CONTRIBUTING.md
+|   folder_structure.txt
+|   LICENSE
+|   preview.png
+|   README.md
+|   
++---.github
+|   \---ISSUE_TEMPLATE
+|           bug_report.md
+|           feature_request.md
+|           
++---.vscode
+|       settings.json
+|       
++---client
+|   |   .env.example
+|   |   .eslintrc.cjs
+|   |   .gitignore
+|   |   .prettierrc.json
+|   |   index.html
+|   |   package-lock.json
+|   |   package.json
+|   |   postcss.config.cts
+|   |   tailwind.config.ts
+|   |   tsconfig.json
+|   |   tsconfig.node.json
+|   |   vercel.json
+|   |   vite.config.mts
+|   |   
+|   +---public
+|   |   \---favicon
+|   |           android-chrome-192x192.png
+|   |           android-chrome-512x512.png
+|   |           apple-touch-icon.png
+|   |           browserconfig.xml
+|   |           favicon-16x16.png
+|   |           favicon-32x32.png
+|   |           favicon.ico
+|   |           mstile-150x150.png
+|   |           safari-pinned-tab.svg
+|   |           site.webmanifest
+|   |           
+|   \---src
+|       |   App.tsx
+|       |   main.tsx
+|       |   vite-env.d.ts
+|       |   
+|       +---api
+|       |       index.tsx
+|       |       
+|       +---assets
+|       |       illustration.svg
+|       |       logo.svg
+|       |       
+|       +---components
+|       |   |   GitHubCorner.tsx
+|       |   |   SplitterComponent.tsx
+|       |   |   
+|       |   +---chats
+|       |   |       ChatInput.tsx
+|       |   |       ChatList.tsx
+|       |   |       
+|       |   +---common
+|       |   |       Footer.tsx
+|       |   |       Select.tsx
+|       |   |       Users.tsx
+|       |   |       
+|       |   +---connection
+|       |   |       ConnectionStatusPage.tsx
+|       |   |       
+|       |   +---drawing
+|       |   |       DrawingEditor.tsx
+|       |   |       
+|       |   +---editor
+|       |   |       Editor.tsx
+|       |   |       EditorComponent.tsx
+|       |   |       FileTab.tsx
+|       |   |       tooltip.ts
+|       |   |       
+|       |   +---files
+|       |   |       FileStructureView.tsx
+|       |   |       RenameView.tsx
+|       |   |       
+|       |   +---forms
+|       |   |       FormComponent.tsx
+|       |   |       
+|       |   +---sidebar
+|       |   |   |   Sidebar.tsx
+|       |   |   |   
+|       |   |   \---sidebar-views
+|       |   |           ChatsView.tsx
+|       |   |           FilesView.tsx
+|       |   |           RunView.tsx
+|       |   |           SettingsView.tsx
+|       |   |           SidebarButton.tsx
+|       |   |           UsersView.tsx
+|       |   |           
+|       |   +---toast
+|       |   |       Toast.tsx
+|       |   |       
+|       |   \---workspace
+|       |           index.tsx
+|       |           
+|       +---context
+|       |       AppContext.tsx
+|       |       AppProvider.tsx
+|       |       ChatContext.tsx
+|       |       FileContext.tsx
+|       |       RunCodeContext.tsx
+|       |       SettingContext.tsx
+|       |       SocketContext.tsx
+|       |       ViewContext.tsx
+|       |       
+|       +---hooks
+|       |       useContextMenu.tsx
+|       |       useFullScreen.tsx
+|       |       useLocalStorage.tsx
+|       |       usePageEvents.tsx
+|       |       useResponsive.tsx
+|       |       useUserActivity.tsx
+|       |       useWindowDimensions.tsx
+|       |       
+|       +---pages
+|       |       EditorPage.tsx
+|       |       HomePage.tsx
+|       |       
+|       +---resources
+|       |       Fonts.ts
+|       |       Themes.ts
+|       |       
+|       +---styles
+|       |       global.css
+|       |       
+|       +---types
+|       |       app.ts
+|       |       chat.ts
+|       |       file.ts
+|       |       fileTab.ts
+|       |       index.d.ts
+|       |       lang-map.d.ts
+|       |       run.ts
+|       |       setting.ts
+|       |       socket.ts
+|       |       user.ts
+|       |       view.ts
+|       |       
+|       \---utils
+|               customMapping.ts
+|               file.ts
+|               formateDate.ts
+|               getIconClassName.ts
+|               
+\---server
+    |   .env.example
+    |   .gitignore
+    |   package-lock.json
+    |   package.json
+    |   tsconfig.json
+    |   
+    +---public
+    |       index.html
+    |       
+    \---src
+        |   server.ts
+        |   
+        \---types
+                socket.ts
+                user.ts
+                
